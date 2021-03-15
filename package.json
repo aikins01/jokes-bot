@@ -1,0 +1,16 @@
+{
+  "name": "quotesbot-telegram",
+  "version": "1.0.0",
+  "description": "chat bot that sends quotes to users",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "node-schedule": "^1.3.2",
+    "telegraf": "^3.38.0"
+  }
+}
